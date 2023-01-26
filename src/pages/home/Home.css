@@ -1,0 +1,24 @@
+.home {
+  flex-direction: column;
+  margin-top: 3em;
+  scroll-margin: 8em;
+}
+
+.home__name {
+  color: var(--clr-primary);
+}
+
+.home .link--icon {
+  margin-right: 0.8em;
+}
+
+.home .btn--outline {
+  margin-right: 1em;
+}
+
+@media (max-width: 600px) {
+  .app .home {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+}
