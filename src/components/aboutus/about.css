@@ -1,0 +1,21 @@
+.about_title {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--chakra-colors-primary-900);
+}
+.about_main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  padding: 2.5rem;
+  gap: 1rem;
+}
+.about_desc {
+  font-size: 13px;
+  font-weight: 400;
+  color: #525252;
+}
+@media (max-width: 800px) {
+  .main {
+    padding: 1rem;
+  }
+}

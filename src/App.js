@@ -3,6 +3,7 @@ import "./App.css";
 import { ThemeContext } from "./context/theme";
 import MainRoutes from "./routes/MainRoutes";
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const [{ themeName }] = useContext(ThemeContext);
@@ -12,6 +13,7 @@ function App() {
       <main className="main">
         <MainRoutes />
       </main>
+      <Footer />
     </div>
   );
 }

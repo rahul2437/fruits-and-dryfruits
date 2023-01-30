@@ -5,8 +5,11 @@
   height: 6em;
   max-width: 1400px;
   width: 100%;
-  padding: 0 1em;
   margin: 0 auto;
   justify-content: space-between;
-  background-color: var(--clr-nav-bg);
+  text-transform: capitalize;
+}
+.links {
+  padding: 5px 10px;
+  text-transform: uppercase;
 }

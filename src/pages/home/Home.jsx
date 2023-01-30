@@ -1,10 +1,14 @@
 import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
+import AboutUsHome from "../../components/aboutus/AboutUs";
+import Emailusform from "../../components/email/Emailusform";
 const Home = () => {
   return (
     <div className="home center">
       {" "}
-      <div style={{ display: "block" }}></div>
+      <div style={{ display: "block" }}>
+        <AboutUsHome />
+        <Emailusform />
+      </div>
     </div>
   );
 };

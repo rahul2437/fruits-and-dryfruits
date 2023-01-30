@@ -1,0 +1,16 @@
+.about_page_main {
+  padding: 3rem;
+}
+.about_page_main > div {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+}
+.about_page_main > div > div {
+  display: flex;
+  gap: 2rem;
+  align-content: center;
+}
+.about_page_content {
+  padding: 1rem 0;
+}

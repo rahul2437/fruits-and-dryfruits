@@ -1,0 +1,45 @@
+.cTitle {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--chakra-colors-primary-400);
+}
+.product_card_list > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  gap: 4rem;
+  margin: 1rem auto;
+}
+.product_title {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--chakra-colors-primary-900);
+}
+.product_description {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--chakra-colors-primary-900);
+}
+.image {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+}
+.more_button {
+  padding: 5px 10px;
+  border: 3px solid #e4af3e;
+  border-radius: 5px;
+  background-color: #ca9a32;
+}
+.more_button:hover {
+  background-color: #cfaf68;
+}
+@media (max-width: 800px) {
+  .product_card_list > div {
+    gap: 1rem;
+  }
+}
+@media (max-width: 900px) {
+  .image {
+    height: 100%;
+  }
+}
