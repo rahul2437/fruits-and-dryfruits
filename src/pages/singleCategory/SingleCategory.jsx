@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { categories } from "../../assests/content";
-import "./app.css";
+import "./SingleCategory.css";
 const getCategory = (data, key) => {
   return data.filter((cat) => cat.title === key)[0];
 };
@@ -34,14 +34,14 @@ const CategoryCards = ({ data }) => {
       {data?.map((product) => (
         <div key={product?.id} className="product_card">
           <div>
+            <img className="image" src={product?.img} alt="product_image" />
+          </div>
+          <div>
             <div className="product_title">{product?.name}</div>
             <div className="product_description">{product?.description}</div>
             <a href={`${product?.category}/${product?.id}`}>
               <button className="more_button">See More...</button>
             </a>
-          </div>
-          <div>
-            <img className="image" src={product?.img} alt="product_image" />
           </div>
         </div>
       ))}

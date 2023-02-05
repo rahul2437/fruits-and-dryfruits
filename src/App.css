@@ -4,3 +4,12 @@
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
 }
+.main {
+  padding: 2rem;
+}
+.title {
+  padding-bottom: 1rem;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--chakra-colors-black-900);
+}

@@ -1,11 +1,15 @@
 import banana from "./images/banana.jpg";
 import grapes from "./images/green_grapes.jpg";
 import pomegranate from "./images/pomegranate.jpg";
-// import grapes from "./images/"
-// import grapes from "./images/"
-// import grapes from "./images/"
-// import grapes from "./images/"
-// import grapes from "./images/"
+import moringa from "./images/moringa.jpg";
+import greenchilli from "./images/greenchilli.jpg";
+import redchilli from "./images/redchilli.jpg";
+import freshginger from "./images/freshginger.jpg";
+import dryginger from "./images/dryginger.jpg";
+import turmeric from "./images/turmeric.jpg";
+import lemon from "./images/lemon.jpg";
+// import  from "./images/"
+// import  from "./images/"
 
 const header = {
   homepage: "",
@@ -71,7 +75,7 @@ const categories = [
       {
         id: "4",
         name: `Lemon`,
-        img: "",
+        img: lemon,
         description: [
           `The lemon is a species of small evergreen trees in the flowering plant family Rutaceae, native to Asia, primarily Northeast India. Lemon is exported
           to over 99 countries from India.`,
@@ -91,7 +95,7 @@ const categories = [
       {
         id: "5",
         name: `Green Chilli`,
-        img: "",
+        img: greenchilli,
         description: [
           `Green chillies are scientifically known as Capsicum frutescens. The spiciness of green chillies comes from a chemical called capsaicin. Green chilies
       are a rich source of many nutrients due to presence of vitamin C and capsaicin.`,
@@ -100,14 +104,14 @@ const categories = [
           `Green chillies can also help in maintaining good heart health, and their consumption can reduce blood cholesterol levels.
       `,
         ],
-        availability: `Throught the year`,
+        availability: `Throughout the year`,
         isHidden: false,
         category: "vegetables",
       },
       {
         id: "10",
         name: `DrumStick`,
-        img: "",
+        img: moringa,
         description: [
           `Moringa also the botanical name for drumstick . India is the largest producer of Drumsticks , While it grows in most parts of India, it's probably
         more known in Southern India These are the pods of Moringa tree and are considered to be great for digestion
@@ -115,6 +119,19 @@ const categories = [
         Dried drumstick and moringa leaf powder can make amazing smoothies too. `,
         ],
         availability: `April to June`,
+        isHidden: false,
+        category: "vegetables",
+      },
+      {
+        id: "11",
+        name: "Onion",
+        img: "",
+        description: [
+          `This product is grown in the fertile soil of India and is known for its pungent taste, sharp aroma and deep color.`,
+          `The Indian Onion is hand-picked and carefully selected to ensure the best quality.`,
+          `At our export company, we are proud to offer the finest quality Indian Onion to our customers. Our product is carefully packaged and transported to ensure that it arrives at your door fresh and ready to use. We take great care in selecting only the finest onions to ensure that our customers receive the best quality product every time.`,
+        ],
+        availability: "Throughout the year",
         isHidden: false,
         category: "vegetables",
       },
@@ -126,7 +143,7 @@ const categories = [
       {
         id: "6",
         name: `Red Chilli`,
-        img: "",
+        img: redchilli,
         description: [
           `Chilli is a fruit which belongs to Capsicum genus. These are categorized as hot pepper or Mirchi in Indian language . Red Chilli became famous all
       around the world because of its characteristics like pungency, taste and flavor.`,
@@ -134,14 +151,14 @@ const categories = [
       There are very powerful antioxidants in red chilli`,
           `Chilli exports account for about 48% in volume terms and 28% in value of the total spices export from India.`,
         ],
-        availability: `Throught the year`,
+        availability: `Throughout the year`,
         isHidden: false,
         category: "spices",
       },
       {
         id: "7",
         name: `Finger Turmeric`,
-        img: "",
+        img: turmeric,
         description: [
           `Turmeric is a common spice that comes from the root of Curcuma longa, It contains a chemical called curcumin . Turmeric is exported from India
       to more than 132 countries.`,
@@ -157,7 +174,7 @@ const categories = [
       {
         id: "8",
         name: `Fresh Ginger`,
-        img: "",
+        img: freshginger,
         description: [
           `Ginger is a flowering plant whose rhizome, ginger, is widely used as a spice and a folk medicine. Fresh Ginger is propagated by planting
       rootstalk cuttings and has been under this type of cultivation for so long that it no longer goes to seed.`,
@@ -171,7 +188,7 @@ const categories = [
       {
         id: "9",
         name: `Dry Ginger`,
-        img: "",
+        img: dryginger,
         description: [
           `Dried ginger is nothing but fresh ginger, which has undergone a drying process, The fresh rhizomes are soaked in water overnight after which the
       outer peel is carefully removed using a knife or a peeler.`,
@@ -190,6 +207,20 @@ const categories = [
   {
     title: "grains",
     data: [],
+  },
+  {
+    title: "dryfruits",
+    data: [
+      {
+        id: "12",
+        name: "Cashew Nuts",
+        img: "",
+        description: [],
+        availability: `Throughout the year`,
+        isHidden: false,
+        category: "dryfruits",
+      },
+    ],
   },
 ];
 
@@ -214,8 +245,8 @@ const about = {
   your homes.`,
   contact: {
     address: "Belagavi",
-    phone: ["7760946848"],
-    email: ["rahulsheelavantar@gmail.com"],
+    phone: ["7411147533"],
+    email: ["shridharitti2014@gmail.com"],
   },
   socials: {
     facebook: "",
