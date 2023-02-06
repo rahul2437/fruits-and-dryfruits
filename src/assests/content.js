@@ -246,7 +246,7 @@ const about = {
   contact: {
     address: "Belagavi",
     phone: ["7411147533"],
-    email: ["shridharitti2014@gmail.com"],
+    email: ["ishridhar04@gmail.com"],
   },
   socials: {
     facebook: "",
