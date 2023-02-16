@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="home center">
       {" "}
-      <div style={{ display: "block" }}>
+      <div style={{ display: "block", textAlign: "center" }}>
         <Carousel />
         <AboutUsHome />
         <Emailusform />

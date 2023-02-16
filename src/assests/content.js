@@ -8,8 +8,9 @@ import freshginger from "./images/freshginger.jpg";
 import dryginger from "./images/dryginger.jpg";
 import turmeric from "./images/turmeric.jpg";
 import lemon from "./images/lemon.jpg";
-// import  from "./images/"
-// import  from "./images/"
+import onion from "./images/onions.jpg";
+import cashew from "./images/cashews.jpg";
+import rawrice from "./images/rawrice.jpg";
 
 const header = {
   homepage: "",
@@ -125,7 +126,7 @@ const categories = [
       {
         id: "11",
         name: "Onion",
-        img: "",
+        img: onion,
         description: [
           `This product is grown in the fertile soil of India and is known for its pungent taste, sharp aroma and deep color.`,
           `The Indian Onion is hand-picked and carefully selected to ensure the best quality.`,
@@ -206,7 +207,17 @@ const categories = [
   },
   {
     title: "grains",
-    data: [],
+    data: [
+      {
+        id: "13",
+        name: "Raw Rice",
+        img: rawrice,
+        description: [],
+        availability: `Throughout the year`,
+        isHidden: false,
+        category: "grains",
+      },
+    ],
   },
   {
     title: "dryfruits",
@@ -214,7 +225,7 @@ const categories = [
       {
         id: "12",
         name: "Cashew Nuts",
-        img: "",
+        img: cashew,
         description: [],
         availability: `Throughout the year`,
         isHidden: false,
