@@ -56,7 +56,6 @@ export default function Emailusform() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(form);
   };
 
   return (
