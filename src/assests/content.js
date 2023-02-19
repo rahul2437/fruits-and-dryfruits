@@ -255,8 +255,12 @@ const about = {
   continuity in fulfilling the customers requirements. We have designed this website to deliver our products in just one click from the comfort of
   your homes.`,
   contact: {
-    address:
-      "#33, PART RESIDENCY SHREE NAGAR SECTOR 5,BELGAUM KARNATAKA 590017",
+    address: `#33,
+      Part Resisdency Shree Nagar Sector 5,
+      Belgaum,
+      Karnataka,
+      India.
+      590017`,
     phone: ["+91 7411147533"],
     email: ["ishridhar04@gmail.com"],
   },
