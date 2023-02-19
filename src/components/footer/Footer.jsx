@@ -2,10 +2,12 @@ import React from "react";
 import { about } from "../../assests/content";
 import { MdLocationOn, MdEmail, MdPhone } from "react-icons/md";
 import "./footer.css";
+import Logo from "../header/Logo";
 const Footer = () => {
   return (
     <div className="footer">
       <div>
+        {/* <Logo /> */}
         <h1 className="footer_title">SMOVING</h1>
         <p>{about.description}</p>
       </div>

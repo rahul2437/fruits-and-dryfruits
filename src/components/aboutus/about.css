@@ -6,13 +6,26 @@
 .about_main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  padding: 2.5rem;
+  padding: 1rem;
   gap: 1rem;
+}
+.about_main > div {
+  text-align: left;
 }
 .about_desc {
   font-size: 13px;
   font-weight: 400;
   color: #525252;
+}
+.about-logo-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 800px) {
+  .about-logo-holder > img {
+    transform: translateY(-100px);
+  }
 }
 @media (max-width: 800px) {
   .main {

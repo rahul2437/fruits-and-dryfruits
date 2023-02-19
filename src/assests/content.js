@@ -1,6 +1,6 @@
-import banana from "./images/banana.jpg";
+import banana from "./images/banana-top.jpg";
 import grapes from "./images/green_grapes.jpg";
-import pomegranate from "./images/pomegranate.jpg";
+import pomegranate from "./images/pomegranate-v2.jpg";
 import moringa from "./images/moringa.jpg";
 import greenchilli from "./images/greenchilli.jpg";
 import redchilli from "./images/redchilli.jpg";
@@ -25,7 +25,7 @@ const logos = {
 
 const categories = [
   {
-    title: "fruits",
+    title: "Fresh fruits",
     data: [
       {
         id: "1",
@@ -255,8 +255,9 @@ const about = {
   continuity in fulfilling the customers requirements. We have designed this website to deliver our products in just one click from the comfort of
   your homes.`,
   contact: {
-    address: "Belagavi",
-    phone: ["7411147533"],
+    address:
+      "#33, PART RESIDENCY SHREE NAGAR SECTOR 5,BELGAUM KARNATAKA 590017",
+    phone: ["+91 7411147533"],
     email: ["ishridhar04@gmail.com"],
   },
   socials: {

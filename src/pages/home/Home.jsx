@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home center">
       {" "}
       <div style={{ display: "block", textAlign: "center" }}>
-        <Carousel />
+        {/* <Carousel /> */}
         <AboutUsHome />
         <Emailusform />
         {/* <Map /> */}

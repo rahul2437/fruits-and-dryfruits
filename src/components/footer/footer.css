@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
@@ -28,6 +31,19 @@
   font-size: 15px;
   gap: 10px;
 }
+
+.f-logo-text {
+  text-transform: lowercase;
+  font-size: 30px;
+}
+.f-logo-f-letter {
+  font-family: "Vollkorn", serif;
+  text-transform: uppercase;
+}
+.f-logo-l-letter {
+  font-family: "Open Sans", serif;
+}
+
 @media (max-width: 900px) {
   .footer {
     padding: 1rem;
