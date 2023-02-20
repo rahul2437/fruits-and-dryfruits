@@ -17,7 +17,8 @@
   margin: 1rem 0;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0px 0px 4px 2px var(--chakra-colors-black-100);
+  /* box-shadow: 0px 10px 10px 5px #edf0d5; */
+  background-color: #fcfdf3;
 }
 .product_title {
   font-size: 20px;
