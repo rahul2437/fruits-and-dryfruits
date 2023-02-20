@@ -4,7 +4,6 @@ import {
   Box,
   Flex,
   Text,
-  Button,
   Stack,
   MenuButton,
   MenuList,
@@ -12,7 +11,6 @@ import {
 } from "@chakra-ui/react";
 import "./Header.css";
 import Logo from "./Logo";
-import { ChevronDownIcon } from "@chakra-ui/icons";
 import { categories } from "../../assests/content";
 
 const Header = (props) => {
@@ -21,16 +19,16 @@ const Header = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div className="header">
+    <Box
+      bg={["primary.500", "primary.500", "white", "white"]}
+      className="header"
+    >
       <NavBarContainer {...props}>
-        <Logo
-          w="100px"
-          color={["white", "white", "primary.500", "primary.500"]}
-        />
+        <Logo color={["white", "white", "primary.500", "primary.500"]} />
         <MenuToggle toggle={toggle} isOpen={isOpen} />
         <MenuLinks isOpen={isOpen} />
       </NavBarContainer>
-    </div>
+    </Box>
   );
 };
 
@@ -84,8 +82,10 @@ const MenuLinks = ({ isOpen }) => {
         spacing={8}
         align="center"
         justify={["center", "space-between", "flex-end", "flex-end"]}
-        direction={["column", "row", "row", "row"]}
+        // alignItems={["center", "space-between", "flex-end", "flex-end"]}
+        direction={["column", "column", "row", "row"]}
         pt={[4, 4, 0, 0]}
+        pb={[4, 0, 0, 0]}
       >
         <MenuItem to="/">Home</MenuItem>
         <MenuItem to="/products">All Products</MenuItem>
@@ -122,8 +122,8 @@ const NavBarContainer = ({ children, ...props }) => {
       justify="space-between"
       wrap="wrap"
       w="100%"
-      mb={8}
-      p={8}
+      // m="8"
+      // p="8"
       bg={["primary.500", "primary.500", "transparent", "transparent"]}
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}

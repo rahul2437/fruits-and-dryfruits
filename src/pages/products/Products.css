@@ -3,11 +3,18 @@
   font-weight: bold;
   color: var(--chakra-colors-primary-400);
 }
-.product_card {
+.product_card_list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
+  gap: 2rem;
+}
+.product_card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--chakra-colors-primary-500);
+  width: 400px;
   gap: 1rem;
-  margin: 1rem auto;
+  margin: 1rem 0;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0px 0px 4px 2px var(--chakra-colors-black-100);
@@ -18,9 +25,19 @@
   color: var(--chakra-colors-primary-900);
 }
 .product_description {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+  /*  */
   font-size: 14px;
   font-weight: 300;
   color: var(--chakra-colors-primary-900);
+}
+.product_card > div:first-child {
+  height: 100%;
 }
 .product_card > div {
   display: flex;
@@ -28,9 +45,10 @@
   justify-content: space-between;
 }
 .image {
-  width: 100%;
+  height: 100%;
+  width: 400px;
   max-height: 250px;
-  object-fit: contain;
+  object-fit: cover;
 }
 .more_button {
   padding: 5px 10px;

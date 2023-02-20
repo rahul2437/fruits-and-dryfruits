@@ -5,11 +5,15 @@
   top: 0;
   z-index: 2;
   height: 6em;
-  max-width: 1400px;
   width: 100%;
   margin: 0 auto;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
   text-transform: capitalize;
+  padding: 1rem 3rem;
+  background-color: var(--chakra-colors-primary-500);
+  box-shadow: 0px 0px 15px 2px #e3e3e3;
 }
 .links {
   padding: 5px 10px;
