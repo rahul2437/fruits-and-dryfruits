@@ -1,17 +1,17 @@
-import banana from "./images/banana-top.jpg";
-import grapes from "./images/green_grapes.jpg";
-import pomegranate from "./images/pomegranate-v2.jpg";
-import moringa from "./images/moringa.jpg";
-import greenchilli from "./images/greenchilli.jpg";
-import redchilli from "./images/redchilli.jpg";
-import freshginger from "./images/freshginger.jpg";
-import dryginger from "./images/dryginger.jpg";
-import turmeric from "./images/turmeric.jpg";
-import lemon from "./images/lemon.jpg";
-import onion from "./images/onions.jpg";
-import cashew from "./images/cashews.jpg";
-import rawrice from "./images/rawrice.jpg";
-
+const baseUrl = `https://smovingoverseas.com`;
+const banana = baseUrl + "/images_webp/banana-top.webp";
+const grapes = baseUrl + "/images_webp/green_grapes.webp";
+const pomegranate = baseUrl + "/images_webp/pomegranate-v2.webp";
+const moringa = baseUrl + "/images_webp/moringa.webp";
+const greenchilli = baseUrl + "/images_webp/greenchilli.webp";
+const redchilli = baseUrl + "/images_webp/redchilli.webp";
+const freshginger = baseUrl + "/images_webp/freshginger.webp";
+const dryginger = baseUrl + "/images_webp/dryginger.webp";
+const turmeric = baseUrl + "/images_webp/turmeric.webp";
+const lemon = baseUrl + "/images_webp/lemon.webp";
+const onion = baseUrl + "/images_webp/onions.webp";
+const cashew = baseUrl + "/images_webp/cashews.webp";
+const rawrice = baseUrl + "/images_webp/rawrice.webp";
 const header = {
   homepage: "",
   title: "Smoving",
@@ -25,7 +25,7 @@ const logos = {
 
 const categories = [
   {
-    title: "Fresh fruits",
+    title: "fruits",
     data: [
       {
         id: "1",
@@ -212,7 +212,11 @@ const categories = [
         id: "13",
         name: "Raw Rice",
         img: rawrice,
-        description: [],
+        description: [
+          `Raw rice is a staple food that has been cultivated and consumed by people for thousands of years. It is the unprocessed form of rice that has been harvested and has not undergone any milling or polishing.`,
+          `Raw rice is rich in essential nutrients such as carbohydrates, proteins, and minerals like iron and calcium. It is also a great source of dietary fiber, which helps regulate digestion and keep you feeling full for longer.`,
+          ` Raw rice can be used to make a variety of dishes like biryani, pulao, and fried rice, and is a must-have in every kitchen.`,
+        ],
         availability: `Throughout the year`,
         isHidden: false,
         category: "grains",
@@ -226,7 +230,11 @@ const categories = [
         id: "12",
         name: "Cashew Nuts",
         img: cashew,
-        description: [],
+        description: [
+          `Cashew nuts are a delicious and nutritious snack that is enjoyed all over the world. They are the kidney-shaped seeds that grow on the cashew tree, which is native to Brazil but is now widely cultivated in tropical regions around the world.`,
+          ` Cashew nuts are a good source of protein, healthy fats, and essential minerals like iron, magnesium, and zinc. They also contain antioxidants that can help protect the body against harmful free radicals.`,
+          ` Cashew nuts can be eaten on their own as a snack, or used in a variety of dishes like curries, salads, and desserts.`,
+        ],
         availability: `Throughout the year`,
         isHidden: false,
         category: "dryfruits",

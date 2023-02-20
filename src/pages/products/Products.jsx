@@ -4,8 +4,8 @@ import "./Products.css";
 const Products = () => {
   return (
     <div>
-      {categories.map((category) => (
-        <div>
+      {categories?.map((category, i) => (
+        <div key={i}>
           <div className="cTitle">{category.title}</div>
           <CategoryCards data={category.data} />
         </div>
@@ -17,9 +17,10 @@ const Products = () => {
 const CategoryCards = ({ data }) => {
   return (
     <div className="product_card_list">
-      {data.map((product) => (
-        <div className="product_card">
+      {data?.map((product, i) => (
+        <div key={i} className="product_card">
           <div>
+            {/* <Img className="image" src={product?.img} /> */}
             <img className="image" src={product.img} alt="product_image" />
           </div>
           <div className="product_details">

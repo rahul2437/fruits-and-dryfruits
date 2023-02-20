@@ -18,7 +18,7 @@
 .logo-text {
   text-transform: lowercase;
   /* display: flex; */
-  transform: scale(1.3) translateX(30px);
+  /* transform: scale(1.3) translateX(30px); */
 }
 .logo-f-letter {
   font-family: "Vollkorn", serif;

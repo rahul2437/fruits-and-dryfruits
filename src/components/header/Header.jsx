@@ -94,14 +94,12 @@ const MenuLinks = ({ isOpen }) => {
             <MenuButton
               bg={["primary.500", "primary.500", "white", "white"]}
               color={["white", "white", "primary.700", "primary.700"]}
-              // as={Button}
-              rightIcon={<ChevronDownIcon />}
             >
               Products
             </MenuButton>
             <MenuList bg={"white"} color={"black"} className="links">
-              {categories?.map((category) => (
-                <MenuItem to={`/products/${category.title}`}>
+              {categories?.map((category, i) => (
+                <MenuItem key={i} to={`/products/${category.title}`}>
                   {category.title}
                 </MenuItem>
               ))}

@@ -20,7 +20,6 @@ const initState = {
 const SingleProduct = () => {
   const { id, category } = useParams();
   const [data, setData] = useState(initState);
-  console.log(data);
   useEffect(() => {
     const pArray = getCategory(categories, category);
     const product = getProduct(pArray?.data || [], id);
@@ -28,7 +27,7 @@ const SingleProduct = () => {
   }, [id, category]);
   return (
     <div>
-      <h1 className="title">{data.name}</h1>
+      <h1 className="title">{data?.name}</h1>
       <div className="single_page">
         <div>
           <img
@@ -38,8 +37,10 @@ const SingleProduct = () => {
           />
         </div>
         <ol>
-          {data?.description?.map((each) => (
-            <li className="desc">{each}</li>
+          {data?.description?.map((each, i) => (
+            <li key={i} className="desc">
+              {each}
+            </li>
           ))}
         </ol>
       </div>
