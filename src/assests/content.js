@@ -243,7 +243,7 @@ const categories = [
   },
 ];
 
-const aboutUSPAGE = {
+const aboutUsPage = {
   data: [
     `At Smoving Overseas Private Limited, we are dedicated to bringing you the best quality fruits, vegetables, and spices from India. Our company is committed to sourcing only the finest ingredients and adhering to strict industry standards.`,
     `As a leading agro-exporter, we understand the importance of supporting both farmers and the market. By providing a platform for the sale of fresh and healthy produce, we help to ensure the success of agriculture and benefit our customers in the process.`,
@@ -277,4 +277,4 @@ const about = {
     instagram: "",
   },
 };
-export { header, categories, about, aboutUSPAGE, logos };
+export { header, categories, about, aboutUsPage, logos };
