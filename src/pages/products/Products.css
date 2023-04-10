@@ -7,7 +7,7 @@
 
 .product_card_list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   gap: 2rem;
 }
 
@@ -53,8 +53,8 @@
 }
 
 .image {
-  height: 250px;
-  width: 250px;
+  height: 100%;
+  width: 400px;
   max-height: 250px;
   object-fit: cover;
 }
