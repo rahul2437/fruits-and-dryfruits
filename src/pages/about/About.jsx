@@ -1,12 +1,12 @@
 import React from "react";
-import { aboutUSPAGE } from "../../assests/content";
 import { GiPlainCircle } from "react-icons/gi";
+import { aboutUsPage } from "../../assests/content";
 import "./About.css";
 const About = () => {
-  console.log(aboutUSPAGE);
+  console.log(aboutUsPage);
   return (
     <div className="about_page_main">
-      {aboutUSPAGE.data.map((about) => (
+      {aboutUsPage.data.map((about) => (
         <div className="about_page_content">
           <div>
             <GiPlainCircle />

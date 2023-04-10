@@ -107,8 +107,8 @@ const MenuLinks = ({ isOpen }) => {
           </Menu>
         </div>
         {/* <MenuItem to="/gallery">Gallery</MenuItem> */}
-        <MenuItem to="/aboutus">About us</MenuItem>
-        <MenuItem to="#footer">Contact us</MenuItem>
+        <MenuItem to="/about-us">About us</MenuItem>
+        <MenuItem to="/#footer">Contact us</MenuItem>
       </Stack>
     </Box>
   );

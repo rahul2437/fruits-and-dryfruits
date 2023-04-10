@@ -243,7 +243,7 @@ const categories = [
   },
 ];
 
-const aboutUSPAGE = {
+const aboutUsPage = {
   data: [
     `At Smoving Overseas Private Limited, we are dedicated to bringing you the best quality fruits, vegetables, and spices from India. Our company is committed to sourcing only the finest ingredients and adhering to strict industry standards.`,
     `As a leading agro-exporter, we understand the importance of supporting both farmers and the market. By providing a platform for the sale of fresh and healthy produce, we help to ensure the success of agriculture and benefit our customers in the process.`,
@@ -253,7 +253,7 @@ const aboutUSPAGE = {
   ],
 };
 const about = {
-  description: `ABOUT US
+  description: `
   Who are we? Well we seek out the finest vegetables, fruits and spices available, maintain the strictest quality standards in the industry, and have
   an unshakeable commitment to agriculture .We at Smoving overseas private limited are Agro Exporters from India, who believe in supplying fresh Fruits,
   Vegetables & other allied Agricultural Products across several terrains / countries. Our company serves as a beneficial platform to both farmers
@@ -264,7 +264,7 @@ const about = {
   your homes.`,
   contact: {
     address: `#33,
-      Part Resisdency Shree Nagar Sector 5,
+      Part Residency Shree Nagar Sector 5,
       Belgaum,
       Karnataka,
       India.
@@ -277,4 +277,4 @@ const about = {
     instagram: "",
   },
 };
-export { header, categories, about, aboutUSPAGE, logos };
+export { header, categories, about, aboutUsPage, logos };
